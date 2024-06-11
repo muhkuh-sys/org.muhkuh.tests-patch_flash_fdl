@@ -169,4 +169,4 @@ function TestClassFDL:run()
 end
 
 
-return function(ulTestID, tLogWriter, strLogLevel) return TestClassFDL('@NAME@', ulTestID, tLogWriter, strLogLevel) end
+return TestClassFDL
